@@ -1,0 +1,23 @@
+@import './../../variables.scss';
+
+.page-header {
+    
+    &__container {
+        max-width: 1000px;
+        margin: auto;
+
+        @media (min-width: $screen-sm) {
+            display: flex;
+        }
+    }
+
+    &__logo {
+        width: 300px;
+        flex-shrink: 0;
+        margin-right: 30px;
+    }
+
+    &__search {
+        flex-grow: 1;
+    }
+}

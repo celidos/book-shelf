@@ -1,0 +1,19 @@
+// В этом файле должны быть стили для БЭМ-блока card,
+                        //его элементов,
+                        // модификаторов, псевдоселекторов, псевдоэлементов,
+                        //@media-условий...
+                        //Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+                        
+                        @import './../../variables.scss';
+
+                        .card {   
+                             $block-name:                &; 
+                             &__wrapper {
+                            display: flex;
+                            padding: 16px;                    
+                             }
+                        &__img {
+                            margin-right: 8px;;
+                        }
+                        // #{$block-name}__element
+}
